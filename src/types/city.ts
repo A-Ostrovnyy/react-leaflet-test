@@ -1,0 +1,38 @@
+export interface City {
+  scalerank: number;
+  natscale: number;
+  labelrank: number;
+  name: string;
+  namepar: string | null;
+  namealt: string | null;
+  diffascii: number;
+  nameascii: string;
+  adm0cap: number;
+  capalt: number;
+  capin: string | number | null;
+  worldcity: number;
+  megacity: number;
+  sov0name: string;
+  sov_a3: string;
+  adm0name: string;
+  adm0_a3: string;
+  adm1name: string | null;
+  iso_a2: string;
+  note: string | null;
+  latitude: number;
+  longitude: number;
+  changed: number;
+  namediff: number;
+  diffnote: string | null;
+  pop_max: number;
+  pop_min: number;
+  pop_other: number;
+  rank_max: number;
+  rank_min: number;
+  geonameid: number;
+  meganame: string | null;
+  ls_name: string | null;
+  ls_match: number;
+  checkme: number;
+  featureclass: string;
+}

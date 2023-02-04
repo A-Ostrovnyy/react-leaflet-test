@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.fit-bound-control-container {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+.fit-bound-control-container > .leaflet-control-layer {
+  width: 35px;
+  height: 35px;
+}
